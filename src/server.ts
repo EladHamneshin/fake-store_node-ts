@@ -1,10 +1,8 @@
 import {productsRouter} from "./routes/productsRouter.js";
-import * as productsDL from "./DL/productsDL.js";
 import express from "express"
 import morgan from "morgan";
 import cors from "cors";
 import axios from "axios";
-import { connect, addProducts } from "./MongoDL/mongoDL.js";
 
 const app = express();
 const port = 3000;
@@ -20,8 +18,7 @@ app.listen(port, () => {
     // .then((res) => {
     //     const products = res.data;
     //     for(const product of products)
-    //         product.quantity = Math.floor(Math.random() * 100);
-
+    //         product.quantity = Math.floor(Math.random() * 100);s
     //     return products
     // }).then((products) => {connect().then(() => addProducts(products)) })
     // .then(()=>console.log(`Server is up and running on port:${port}`));

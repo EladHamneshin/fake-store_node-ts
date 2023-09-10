@@ -14,7 +14,7 @@ app.listen(port, () => {
     // .then((res) => {
     //     const products = res.data;
     //     for(const product of products)
-    //         product.quantity = Math.floor(Math.random() * 100);
+    //         product.quantity = Math.floor(Math.random() * 100);s
     //     return products
     // }).then((products) => {connect().then(() => addProducts(products)) })
     // .then(()=>console.log(`Server is up and running on port:${port}`));

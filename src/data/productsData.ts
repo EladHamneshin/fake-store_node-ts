@@ -1,4 +1,4 @@
-import { Db, MongoClient } from "mongodb";
+import { MongoClient } from "mongodb";
 import Product from "../models/product";
 
 const url = "mongodb://127.0.0.1:27017";
